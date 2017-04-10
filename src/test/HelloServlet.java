@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<HTML>");
         out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">");
         out.println("<HEAD><TITLE>hello world</TITLE></HEAD>");
-        out.println("<BODY>");
+        out.println("  <BODY>");
 
         String url = request.getRequestURI(); //获取uri路径
         out.println("<form action='" + url +"' method='post'>");
