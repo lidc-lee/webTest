@@ -27,6 +27,14 @@
         <url-pattern>/first.jsp</url-pattern>
         <url-pattern>/first.asp</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>identityServlet</servlet-name>
+        <servlet-class>test.IdentityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>identityServlet</servlet-name>
+        <url-pattern>/identity</url-pattern>
+    </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
