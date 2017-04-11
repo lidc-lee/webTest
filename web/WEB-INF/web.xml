@@ -54,8 +54,12 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
-    <context-param>
-        <param-name>ldc</param-name>
-        <param-value>ldc</param-value>
-    </context-param>
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>test.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
 </web-app>
