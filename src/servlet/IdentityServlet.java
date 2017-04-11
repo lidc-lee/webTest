@@ -1,8 +1,7 @@
-package test;
+package servlet;
 
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;
-import sun.awt.image.JPEGImageDecoder;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;

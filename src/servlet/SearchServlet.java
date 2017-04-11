@@ -1,7 +1,6 @@
-package test;
+package servlet;
 
 import com.yahoo.search.*;
-import sun.rmi.runtime.Log;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
