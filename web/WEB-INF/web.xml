@@ -70,4 +70,12 @@
         <servlet-name>PostServlet</servlet-name>
         <url-pattern>/post</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>counter</servlet-name>
+        <jsp-file>/counter.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>counter</servlet-name>
+        <url-pattern>/counter</url-pattern>
+    </servlet-mapping>
 </web-app>
