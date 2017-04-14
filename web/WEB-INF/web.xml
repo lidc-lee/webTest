@@ -78,4 +78,15 @@
         <servlet-name>counter</servlet-name>
         <url-pattern>/counter</url-pattern>
     </servlet-mapping>
+
+    <!--filter-->
+    <filter>
+        <filter-name>imageFilter</filter-name>
+        <filter-class>filter.ImageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>imageFilter</filter-name>
+        <url-pattern>/images</url-pattern>
+        <url-pattern>/upload/images/*</url-pattern>
+    </filter-mapping>
 </web-app>

@@ -12,6 +12,6 @@
     <title>Title</title>
 </head>
 <body>
-
+action 参数为：<c:out default="hello" value="${param.action}"></c:out>
 </body>
 </html>
